@@ -1,5 +1,25 @@
-div {
-  border-style: solid;
-  border: 2px;
-  border-color: black;
+#main-div {
+  /* background-color: aqua; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 0px 12px 0px 12px;
+  /* text-align: left; */
+}
+
+mat-label {
+  vertical-align: middle;
+}
+
+mat-icon {
+  vertical-align: middle;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+
+mat-form-field{
+  margin-left: 8px;
+  text-align: right;
+  /* background-color: aquamarine; */
 }
